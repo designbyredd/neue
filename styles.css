@@ -1,0 +1,135 @@
+body {
+	background-color: #000;
+	color: #fff;
+	overflow-x:hidden;
+
+	/* margin: 0vw 2vw 0vw 2vw */
+}
+
+#intro {
+	margin-top: 90px;
+}
+
+/* .navbar {
+	width: 100%;
+	background: none !important;
+	height: 70px;
+}
+
+@media (max-width: 480px) {
+	.navbar {
+		background: black !important;
+	}
+}
+
+.navbar .navbar-toggler {
+	cursor: pointer;
+	outline: 0;
+}
+
+.navbar .nav-link {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.navbar .nav-item {
+	padding: 0 1rem;
+}
+
+@media (max-width: 34em) {
+	.navbar .nav-item {
+		padding: 0;
+	}
+}
+
+@media (max-width: 34em) {
+	.navbar .nav-item .nav-link {
+		font-weight: normal;
+		color: #fff !important;
+	}
+}
+
+.navbar-brand {
+	display: inline-block;
+	padding-top: .3125rem;
+	padding-left: 2vw;
+	padding-bottom: .3125rem;
+	margin-right: 1rem;
+	font-size: 1.25rem;
+	line-height: inherit;
+	white-space: nowrap;
+	font-weight: 700;
+} */
+
+.img-fluid {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+/* customise the navbar background colour / toggle icon colour/ remove keyline around toogle icon */
+.bg-dark {
+  	background-color: #000000 !important;
+}
+.navbar-dark .navbar-toggler-icon {
+  	background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar {
+    padding-top: 0.75rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5px;
+    padding-bottom: 0.75rem;
+}
+
+.navbar-toggler {
+  padding: 0.75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border: 0px solid transparent;
+  border-radius: 0rem;
+}
+
+.hero {
+	height:400px;
+	background-color: yellow;
+	color:black;
+	text-align: center;
+}
+
+/* my type styles */
+.display-1 {
+	font-size: calc(19px + 8vw);
+  font-weight: 700;
+  line-height: .9em;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+a.text-white:hover, a.text-white:focus {
+  color: #ffffff !important;
+	text-decoration: none;
+}
+
+.text-primary {
+  color: #fff800 !important;
+}
+
+a.text-primary:hover, a.text-primary:focus {
+  color: #fff800 !important;
+	text-decoration: none;
+}
+
+.text-secondary {
+  color: #adb5bd !important;
+}
+
+a.text-secondary:hover, a.text-secondary:focus {
+  color: #adb5bd !important;
+	text-decoration: none;
+}
+
+/* accordian styling */
